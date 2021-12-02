@@ -25,3 +25,20 @@
     background: var(--main-color);
 }
 
+.sidebar-brand {
+    height: 90px;
+    padding: 1rem 0rem 1rem 2rem; 
+    /* color: #fff; */
+}
+
+.sidebar-brand h2 {
+    color: #fff;
+}
+
+.sidebar-brand h2 span i{
+    display: inline-block;
+}
+
+.main-content {
+    margin-left: 345px;
+}
