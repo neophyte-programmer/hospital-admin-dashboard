@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 :root {
-    --main-color: #884dff;
+    --main-color: #0038fa;
     --color-dark: #1d2231;
     --text-grey: #8390a2;
 }
@@ -15,4 +15,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+.sidebar {
+    width: 345px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: var(--main-color);
+}
 
