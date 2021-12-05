@@ -59,6 +59,14 @@ small {
     font-size: 0.75rem;
 }
 
+p {
+    color: var(--color-dark-variant);
+}
+
+b {
+    color: var(--color-dark);
+}
+
 
 /* =========== ROOT VARIABLES ======== */
 :root {
@@ -88,4 +96,30 @@ small {
 
 }
 
+
+/* ========== UNIVERSAL CLASSES STYLING =======  */
+
+.logo-icon {
+    font-size: 5rem;
+}
+
+.text-muted {
+    color: var(--color-info-dark);
+}
+
+.primary {
+    color: var(--color-primary);
+}
+
+.danger {
+    color: var(--color-danger);
+}
+
+.success {
+    color: var(--color-success);
+}
+
+.warning {
+    color: var(--color-warning);
+}
 
