@@ -279,3 +279,14 @@ main .insights > div.expenses i {
 main .insights > div.sales i {
     background: var(--color-success); 
 }
+
+main .insights > div .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .insights h3 {
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
