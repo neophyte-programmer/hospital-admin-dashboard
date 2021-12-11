@@ -129,7 +129,7 @@ b {
 .container {
     display: grid;
     width: 96%;
-    margin: 0 auto;
+    margin: 0 3rem 0 0;
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
 }
@@ -146,6 +146,7 @@ b {
 
 aside {
     height: 100vh;
+    background: var(--color-white);
 }
 
 aside .top {
@@ -395,4 +396,46 @@ main .recent-orders a {
     width: 4rem;
     object-fit: cover;
     border-radius: 50%;
+}
+
+
+/* ========== RIGHT ======== */
+
+.right {
+    margin-top: 1.4rem;
+    margin-right: 2rem;
+}
+
+.right i {
+    font-size: 1.9rem;
+}
+
+.right .top {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.right .top button {
+    display: none;
+}
+
+.right .theme-toggler {
+    background: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;  
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.right .theme-toggler i {
+    font-size: 1.4rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
