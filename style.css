@@ -454,3 +454,20 @@ main .recent-orders a {
     justify-content: center;
     align-items: center;
 }
+
+/* ========== RECENT UPDATES ======== */
+
+.right .recent-updates {
+    margin-top: 1rem;
+}
+
+.right .recent-updates h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .recent-updates .updates {
+    background: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+}
