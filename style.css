@@ -447,3 +447,10 @@ main .recent-orders a {
 
 }
 
+.right .top .profile {
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
