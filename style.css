@@ -135,8 +135,8 @@ b {
 }
 
 .dp-round {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -470,4 +470,17 @@ main .recent-orders a {
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .recent-updates .updates:hover {
+    box-shadow: var(--box-shadow-hover);
+}
+
+.right .recent-updates .updates .update {
+    display: grid;
+    grid-template-columns: 2.6rem auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--color-light);
 }
