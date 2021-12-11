@@ -80,6 +80,7 @@ b {
     --color-info-light: #dce1eb;
     --color-dark: #363949;
     --color-light: rgba(132, 139, 200, 0.18);
+    --color-light-deep: rgba(132, 139, 200, 0.3);
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
     --color-background: #f6f6f9;
@@ -93,7 +94,7 @@ b {
     --card-padding: 1.8rem;
     --padding-1: 1.2rem;
 
-    --box-shadow-hover: 0 2rem 3rem var(--color-light);
+    --box-shadow-hover: 0 2rem 3rem var(--color-light-deep);
     --box-shadow: 0 0.5rem 1rem var(--color-light);
 
 }
@@ -342,3 +343,21 @@ main .insights small {
     display: block;
     margin-top: 1.3rem;
 }
+
+main .recent-orders {
+    margin-top: 2rem;
+}
+
+main .recent-orders h2 {
+    margin-bottom: 0.8rem;
+}
+
+main .recent-orders table {
+    background: var(--color-white);
+    width: 100%;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow-hover);
+}
+
