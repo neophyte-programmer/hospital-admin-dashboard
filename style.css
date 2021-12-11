@@ -134,6 +134,13 @@ b {
     grid-template-columns: 14rem auto 23rem;
 }
 
+.dp-round {
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 /* ========== GENERAL STYLING ========= */
 
@@ -383,3 +390,9 @@ main .recent-orders a {
     color: var(--color-primary);
 }
 
+.right .top .profile-photo img {
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
