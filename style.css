@@ -91,7 +91,7 @@ b {
     --border-radius-2: 0.8rem;
     --border-radius-3: 1.2rem;
 
-    --card-padding: 1.8rem;
+    --card-padding: 1.5rem;
     --padding-1: 1.2rem;
 
     --box-shadow-hover: 0 2rem 3rem var(--color-light-deep);
@@ -481,6 +481,47 @@ main .recent-orders a {
     display: grid;
     grid-template-columns: 2.6rem auto;
     gap: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid var(--color-light);
+    margin-bottom: 0.8rem;
+    /* border-bottom: 1px solid var(--color-light); */
+}
+
+/* ========== HOSPITAL ANALYTICS ======== */
+
+.right .hospital-analytics {
+    margin-top: 1rem;
+}
+
+.right .hospital-analytics h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right .hospital-analytics .item {
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 1.4rem 1.8rem;
+    border-radius: var(--border-radius-3);
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.right .hospital-analytics .item:hover {
+    box-shadow: var(--box-shadow-hover);
+}
+
+.right .hospital-analytics .item .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0;
+    width: 100%;
+}
+
+.right .hospital-analytics .item .icon {
+    padding: 0.6rem;
+    color: var(--color-white);
+    border-radius: 50%;
+    background: red;
 }
