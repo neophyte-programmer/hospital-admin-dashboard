@@ -523,5 +523,30 @@ main .recent-orders a {
     padding: 0.6rem;
     color: var(--color-white);
     border-radius: 50%;
-    background: red;
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.right .hospital-analytics .item.patients .icon {
+    background: var(--color-success);
+}
+
+.right .hospital-analytics .item.appointments .icon {
+    background: var(--color-danger);
+}
+
+
+.right .hospital-analytics .add-medicine {
+    background-color: transparent;
+    border: 2px dashed var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+
+}
+
+.right .hospital-analytics .add-medicine h3 {
+    font-weight: 500;
 }
