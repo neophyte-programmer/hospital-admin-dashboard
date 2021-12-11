@@ -663,6 +663,28 @@ main .recent-orders a {
 
     main {
         margin-top: 8rem;
-
+        padding: 0 1rem;
     }
+
+    main .recent-orders {
+        position: relative;
+        margin: 3rem 0 0 0;
+        width: 100%;
+    }
+
+    main .recent-orders table {
+        width: 100%;
+        margin: 0;
+    }
+
+    .right {
+        width: 94%;
+        margin: 0 auto 4rem;
+    }
+
+    .right .top {
+        
+    }
+
+
 }
