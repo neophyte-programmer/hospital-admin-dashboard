@@ -284,11 +284,12 @@ main .insights > div .middle {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 200px;    
 }
 
 main .insights h3 {
     margin: 1rem 0 0.6rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 main .insights .progress {
@@ -309,6 +310,30 @@ main .insights svg circle {
     stroke-width: 14;
     stroke-linecap: round;
     transform: translate(5px, 5px);
+}
+
+main .insights .sales svg circle {
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .insights .expenses svg circle {
+    stroke-dashoffset: 20;
+    stroke-dasharray: 80;
+}
+
+main .insights .income svg circle {
+    stroke-dashoffset: 35;
     stroke-dasharray: 110;
-    stroke-dashoffset: 92;
+}
+
+main .insights .progress .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
