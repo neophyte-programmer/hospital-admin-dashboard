@@ -337,3 +337,8 @@ main .insights .progress .number {
     justify-content: center;
     align-items: center;
 }
+
+main .insights small {
+    display: block;
+    margin-top: 1.3rem;
+}
