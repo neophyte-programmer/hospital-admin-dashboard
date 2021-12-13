@@ -32,5 +32,11 @@ I learnt new concepts too.
 ## Check It Out
 Live Site URL: [Live Site](https://hospitaladmindashboard-cisd.netlify.app/)
 
-# How It Looks
+## How It Looks
 
+### Light Theme
+![](https://github.com/neophyte-programmer/hospital-admin-dashboard/blob/main/ss1.png?raw=true)
+
+
+### Dark Theme
+![](https://github.com/neophyte-programmer/hospital-admin-dashboard/blob/main/ss2.png?raw=true)
